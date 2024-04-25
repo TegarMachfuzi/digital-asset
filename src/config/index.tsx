@@ -1,19 +1,31 @@
 export const PRODUCT_CATEGORIES = [
     {
-        label: "UI Kits",
-        value: "ui kits" as const,
+        label: "T-SHIRT",
+        value: "t-shirt" as const,
         featured: [
             {
-                name: 'Editor picks',
+                name: 'Thrust No Body',
                 href:"#",
-                imageSrc: "/nav/ui-kits/mixed.jpg"
+                imageSrc: "/nav/tshirt/trust.jpg"
+
+            },
+            {
+                name: 'Thrust No Body Back',
+                href:"#",
+                imageSrc: "/nav/tshirt/trust.jpg"
+
+            },
+            {
+                name: 'Thrust No Body Back',
+                href:"#",
+                imageSrc: "/nav/tshirt/trust.jpg"
 
             }
         ]
     },
     {
-        label: "Icons",
-        value: "Icons" as const,
+        label: "Trousers",
+        value: "trousers" as const,
         featured: [
             {
                 name: 'Editor picks',
